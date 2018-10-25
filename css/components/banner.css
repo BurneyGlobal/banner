@@ -1,0 +1,56 @@
+/* Your banner CSS file */
+.banner {
+  background-size: cover;
+  background-image:
+  /* Transparent gradient above */
+  linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  /* Then image below */
+  url('images/sisnfifi.jpg');
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-flat-filter {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/sisnfifi.jpg');
+}
+
+h1 {
+  color: white;
+  font-family: 'Satisfy', cursive;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 0px;
+
+}
+
+
+p {
+  color: white;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+
+@media (max-width: 700px) {
+
+  p {
+    margin-top: 0;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 38px !important;
+  }
+  p {
+    font-size: 26px;
+  }
+}
+

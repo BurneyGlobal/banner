@@ -1,0 +1,23 @@
+/* Feel free to use your own button CSS code (from previous challenge) */
+/* Here is a sample button design */
+
+
+.btn-yours {
+    color: white;
+    padding: 15px 10px;
+    background-color: rgb(255, 0, 255);
+    border-radius: 50px;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.btn-yours:hover {
+  background: white;
+  text-decoration: none;
+  color: rgb(255, 0, 255);
+}
+
+
